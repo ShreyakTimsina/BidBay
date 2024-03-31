@@ -1,0 +1,144 @@
+main {
+  min-height: 80vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+table td,
+table th {
+  text-align: center;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.review button {
+  margin-top: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.overallThriftContainer{
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+}
+.thriftOrderContainer{
+  display: flex;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  color: black;
+  padding: 30px;
+  border-radius: 20px;
+  width: max-content;
+}
+.thriftOrderContainer .thriftInfo{
+  display: flex;
+  gap: 10px;
+}
+.productImage{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.productCard{
+  width: max-content
+}
+.productTitle{
+  text-decoration: none !important;
+  font-size: 20px;
+}
+.productPrice{
+  font-size: 16px;
+}
+.bgPrimary{
+  background-color: #8ecae6;
+}
+.footerImageContainer{
+  display: flex;
+  align-items: center;
+ width: max-content;
+  font-size: 24px;
+}
+.footerContainer{
+  padding: 30px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.logoIcon{
+  width: 60px;
+  height: 60px;
+}
+
+.logoIcon.facebook{
+  width: 80px;
+}
+nav{
+  display: flex;
+  gap: 20px;
+  color: black;
+}
+.productImageFull{
+  height: 400px;
+  width: 400px;
+}
+.bold{
+  font-weight: 900;
+}
+.active{
+  font-weight: 800;
+}
+.signInForm, .signUpForm{
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.signInForm button, .signUpForm button {
+  width: 100%;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.signInForm button:hover, .signUpForm button:hover{
+  background-color: #8ecae6;
+  color: black;
+}
+.signInForm h1, .signUpForm h1 {
+  text-align: center;
+}

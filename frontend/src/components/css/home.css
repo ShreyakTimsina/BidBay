@@ -1,0 +1,13 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	height: 93vh;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 10px 20px;
+}
+
+.home__display {
+	display: flex;
+	height: 100%;
+}

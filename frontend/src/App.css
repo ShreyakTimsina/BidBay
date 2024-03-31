@@ -1,0 +1,35 @@
+.viewAllBtn {
+	background-color: white;
+	padding: 5px 25px;
+	border: 2px solid #f85606;
+	color: #f85606;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+	margin: 20px 0;
+}
+.viewAllBtn:hover {
+	background-color: #f85606;
+	color: white;
+}
+.btn.btn-light.my-3 {
+	width: max-content;
+	margin: 10px 0 10px 30px !important;
+}
+.card-body {
+	max-width: 250px;
+}
+.addToCartQty::-webkit-inner-spin-button,
+.addToCartQty::-webkit-outer-spin-button {
+	opacity: 1;
+}
+
+.addToCartQty::-webkit-outer-spin-button,
+.addToCartQty::-webkit-inner-spin-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	padding: 0 10px;
+	cursor: pointer;
+}
